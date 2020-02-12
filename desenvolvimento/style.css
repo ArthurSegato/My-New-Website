@@ -1,0 +1,79 @@
+html {
+	height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	height: 100%;
+}
+
+/*	EFEITO PARALLAX NO BACKGROUND	*/
+.parallax {
+ 	height: 100%;
+ 	background-attachment: fixed;
+ 	background-position: top;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.back1 {
+	background-image: url("_images/background.jpg");
+}
+
+.back2 {
+	background-image: url("_images/background2.png");
+}
+
+.back3 {
+	background-image: url("_images/background3.png");
+}.
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.muli {
+	font-family: 'Muli', sans-serif;
+}
+
+.roxo {
+	color: #7f00ff;
+}
+
+.regular {
+	font-weight: 400;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.black {
+	font-weight: 900;
+}
+
+.trinta {
+	font-size: 30px;
+}
+
+.sessenta {
+	font-size: 60px;
+}
+
+.cem {
+	font-size: 100px;
+}
+
+.blinking-cursor {
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+    text-shadow: none;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
