@@ -127,9 +127,78 @@ margin-right: 0px!important;
 	background-image: url("_images/projects.png");
 }
 
-.projetos {
-	padding: 10px;
-}
+.hover {
+	overflow: hidden;
+	position: relative;
+	margin: 10px;
+  }
+  
+  .hover-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	transition: all 0.4s;
+  }
+  
+  .hover img {
+	width: 100%;
+	transition: all 0.3s;
+  }
+  
+  .hover-content {
+	position: relative;
+	z-index: 99;
+  }
+  .hover-5::after {
+	content: "";
+	width: 100%;
+	height: 10px;
+	background: #7f00ff;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	display: block;
+	transition: all 0.3s;
+	z-index: 999;
+  }
+  
+  .hover-5 .hover-overlay {
+	background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .hover-5-title {
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+	transition: all 0.3s;
+	padding: 2rem 3rem;
+	z-index: 99;
+  }
+  
+  .hover-5-title span {
+	transition: all 0.4s;
+	opacity: 0;
+	color:#7f00ff;
+  }
+  
+  .hover-5:hover .hover-overlay {
+	background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .hover-5:hover .hover-5-title {
+	bottom: 0;
+  }
+  
+  .hover-5:hover .hover-5-title span {
+	opacity: 1;
+  }
+  
+  .hover-5:hover::after {
+	bottom: 0;
+  }
 
 /*	CONTACT	*/
 .bg4 {
@@ -166,6 +235,7 @@ margin-right: 0px!important;
 .easter {
 	cursor: pointer;
 }
+
 /*	PADRÕES	*/
 .trinta {
 	font-size: calc(0.4464285714285714vw + 14.571428571428571px);
