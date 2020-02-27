@@ -163,7 +163,9 @@ margin-right: 0px!important;
 .footer {
 	background-color:#252525;
 }
-
+.easter {
+	cursor: pointer;
+}
 /*	PADRÕES	*/
 .trinta {
 	font-size: calc(0.4464285714285714vw + 14.571428571428571px);
