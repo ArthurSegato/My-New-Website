@@ -1,0 +1,19 @@
+{
+    "name": "Arthur Segato",
+    "short_name": "Arthur Segato",
+    "icons": [
+        {
+            "src": "/_images/_icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/_images/_icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#7f00ff",
+    "background_color": "#7f00ff",
+    "display": "standalone"
+}

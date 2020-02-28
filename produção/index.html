@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="_images\_icons\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="_images\_icons\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="_images\_icons\favicon-16x16.png">
+    <link rel="manifest" href="_images\_icons\site.webmanifest">
+    <link rel="mask-icon" href="_images\_icons\safari-pinned-tab.svg" color="#7f00ff">
+    <link rel="shortcut icon" href="_images\_icons\favicon.ico">
+    <meta name="msapplication-TileColor" content="#7f00ff">
+    <meta name="msapplication-config" content="_images\_icons\browserconfig.xml">
+    <meta name="theme-color" content="#7f00ff">
+    <meta name="description" content="Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV, with intention of specialize in game development, and interested in networking, security and web development!">
+    <meta property=”og:title” content=”Arthur Segato - Web & Game Developer“/>
+    <meta property=”og:type” content=”website“/>
+    <meta property=”og:description” content=”Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV, with intention of specialize in game development, and interested in networking, security and web development!“/>
+    <meta property=”og:image” content=”_images\facebok.png“/>
+    <meta property=”og:url” content=”https://arthursegato.com”/>
+    <meta property=”og:site_name” content=”Arthur Segato - Web & Game Developer“/>
+    <meta name=”twitter:title” content=”Arthur Segato - Web & Game Developer“>
+    <meta name=”twitter:card” content=”summary“>
+    <meta name=”twitter:description” content=”Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV, with intention of specialize in game development, and interested in networking, security and web development!“>
+    <meta name=”twitter:image” content=”_images\twitter.png“>
+    <meta name=”twitter:url” content=”https://arthursegato.com”>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Muli:700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            overflow-x: hidden;
+            height: 100%;
+            color: #ffffff;
+            position: relative;
+        }
+        a, a:hover {
+            color: #ffffff;
+        }
+        [class*="col-"] {
+            padding: 1rem;
+        }
+        .row, .container-fluid {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+        }
+        .fixed-top  {
+        -webkit-backface-visibility: hidden;
+        }
+        .landing {
+            width: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .jumbotron {
+            margin: 0;
+        }
+        .navbar {
+            font-family: 'Muli', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            background-color: rgba(0,0,0, 0.8) !important;
+        }
+        .navbar-brand {
+            font-family: 'Muli', sans-serif;
+            font-weight: 700;
+        }
+        .navbar-nav li {
+            padding-right: 4.375rem;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+        .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+            color: #7f00ff;
+        }
+        .tamanho {
+            height: 100%;
+        }
+        .bg1 {
+            background-image: url("_images/home.jpg");
+        }
+        .caption {
+            width: 100%;
+            max-width: 100%;
+            position: absolute;
+            top: 33.6%;
+            z-index: 1;
+            color: #ffffff;
+        }
+        .caption h1 {
+            font-family: 'Muli', sans-serif;
+            font-weight: 900;
+            padding-left: 7.8%;
+        }
+        .bg2 {
+            background-color: #252525;
+        }
+        .jumbotron {
+            background-color: transparent;
+            z-index: 5;
+        }
+        .titulo {
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: #7f00ff;
+        }
+        .sub {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+        }
+        .texto {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 3%;
+        }
+        .feature p  {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            margin: 0;
+        }
+        .bg3 {
+            background-image: url("_images/projects.png");
+        }
+        .hover {
+            overflow: hidden;
+            position: relative;
+            margin: 10px;
+        }
+        .hover-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 90;
+            transition: all 0.4s;
+        }
+        .hover img {
+            width: 100%;
+            transition: all 0.3s;
+        }
+        .hover-content {
+            position: relative;
+            z-index: 99;
+        }
+        .hover-5::after {
+            content: "";
+            width: 100%;
+            height: 10px;
+            background: #7f00ff;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            display: block;
+            transition: all 0.3s;
+            z-index: 999;
+        }
+        .hover-5 .hover-overlay {
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .hover-5-title {
+            position: absolute;
+            bottom: 1rem;
+            left: 0;
+            transition: all 0.3s;
+            padding: 2rem 3rem;
+            z-index: 99;
+        }
+        .hover-5:hover .hover-overlay {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .hover-5:hover .hover-5-title {
+            bottom: 0;
+        }
+        .hover-5:hover {
+            opacity: 1;
+        }
+        .hover-5:hover::after {
+            bottom: 0;
+        }
+        .bg4 {
+            background-image: url("_images/contact.png");
+        }
+        .underline {
+            height: 3px;
+            width: 100%;
+            background-color: #7f00ff;
+        }
+        .contato {
+            font-family: "Lato", sans-serif;
+            padding-top: 10%;
+            text-decoration: none;
+        }
+        .contato p{
+            font-weight: 700;
+            color: #7f00ff;
+            margin: 0;
+        }
+        .contato a{
+            font-weight: 400;
+            text-decoration-color: #7f00ff;
+        }
+        .footer {
+            background-color:#252525;
+        }
+        .easter {
+            cursor: pointer;
+        }
+        .trinta {
+            font-size: calc(0.4464285714285714vw + 14.571428571428571px);
+        }
+        .cessenta {
+            font-size: calc(0.8928571428571428vw + 29.142857142857142px);
+        }
+        .cem {
+            font-size: calc(1.5625vw + 48px);
+        }
+        @media (min-width: 768px) {
+            .tinta {
+                font-size: calc(0.6756756756756757vw + 12.81081081081081px);
+            }
+            .cessenta {
+                font-size: calc(1.3513513513513513vw + 25.62162162162162px);
+            }
+            .cem {
+                font-size: calc(2.195945945945946vw + 43.13513513513514px);
+            }
+        }
+        @media (min-width: 1360px) {
+        .trinta {
+            font-size: calc(1.4285714285714286vw + 2.5714285714285716px);
+        }
+        .cessenta {
+            font-size: calc(2.857142857142857vw + 5.142857142857143px);
+        }
+        .cem {
+            font-size: calc(4.821428571428572vw + 7.428571428571429px);
+        }
+        }
+        @media (min-width: 1920px) {
+        .trinta {
+            font-size: 30px;
+        }
+        .cessenta {
+            font-size: 60px;
+        }
+        .cem {
+            font-size: 100px;
+        }
+        }
+        .blinking-cursor {
+        animation: 1s blink step-end infinite;
+        }
+        @keyframes blink {
+        from, to {
+            color: transparent;
+            text-shadow: none;
+        }
+        50% {
+            color: #ffffff;
+        }
+        }
+    </style>
+    <title>Arthur Segato - Web & Game Developer</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand trinta" href="#home">
+            <img src="_images/logo.svg" width="50" height="50" alt="Arthur segato logo">
+            ARTHUR SEGATO
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse trinta" id="navbarSite">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">PROJECTS</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HOME -->
+    <div id="home" class="landing tamanho bg1">
+        <div class="caption text-left">
+            <h1 class="cem">Arthur Segato</h1>
+            <h1 class="cem">Web && Game</h1>
+            <h1 class="cem">Developer<span class="blinking-cursor">|</span></h1>
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div id="about" class="landing bg2">
+        <div class="jumbotron">
+            <div class="narrow">
+                <div class="col-12">
+                    <p class="titulo text-center trinta">I AM</p>
+                    <h1 class="sub text-center cessenta">ARTHUR SEGATO PAULO</h1>
+                    <p class="texto trinta">Born in 1999, and living in Brazil.<br>I'm currently studying computer science
+                        at the Vila Velha University - UVV, with intention of specialize in game development, interested in
+                        networking, security and web development! also, i'm an open source activist.</p>
+                </div>
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-md">
+                            <p class="titulo trinta">SKILL</p>
+                            <div class="feature trinta">
+                                <p>Programing</p>
+                                <p>Graphic design</p>
+                                <p>Audiovisual editing</p>
+                                <p>Streaming</p>
+                                <p>Game development</p>
+                                <p>Beginner english</p>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <p class="titulo trinta">SOFTWARE</p>
+                            <div class="feature trinta">
+                                <p>Office package</p>
+                                <p>Photoshop</p>
+                                <p>Illustrator</p>
+                                <p>Premiere</p>
+                                <p>After Effects</p>
+                                <p>Unity</p>
+                                <p>Ren'Py</p>
+                                <p>Cinema 4D</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PROJECTS -->
+    <div id="projects" class="landing bg3">
+            <div class="jumbotron">
+                <div class="narrow">
+                    <div class="col-12">
+                        <p class="titulo text-center trinta">PROJECTS</p>
+                        <h1 class="sub text-center cessenta">SOME OF MY LATEST WORKS</h1>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <a href="#">
+                                <div class="hover hover-5">
+                                    <img src="_images/teste.png" alt="nekoware image">
+                                    <div class="hover-overlay"></div>
+                                    <div class="hover-5-content">
+                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
+                                        Nekoware <strong class="font-weight-bold text-white">License</strong>
+                                    </h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="hover hover-5">
+                                    <img src="_images/teste.png" alt="coming soon">
+                                    <div class="hover-overlay"></div>
+                                    <div class="hover-5-content">
+                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
+                                        Coming <strong class="font-weight-bold text-white">Soon </strong>
+                                    </h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="w-100"></div>
+                            <a href="#">
+                                <div class="hover hover-5">
+                                    <img src="_images/teste.png" alt="coming soon">
+                                    <div class="hover-overlay"></div>
+                                    <div class="hover-5-content">
+                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
+                                        Coming <strong class="font-weight-bold text-white">Soon </strong>
+                                    </h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="hover hover-5">
+                                    <img src="_images/teste.png" alt="coming soon">
+                                    <div class="hover-overlay"></div>
+                                    <div class="hover-5-content">
+                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
+                                        Coming <strong class="font-weight-bold text-white">Soon </strong>
+                                    </h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- CONTACT   -->
+    <div id="contact" class="landing bg4">
+        <div class="jumbotron">
+            <div class="narrow">
+                <div class="col-12">
+                    <p class="titulo text-center trinta">CONTACT</p>
+                </div>
+                <div class="container-md col-5 trinta">
+                    <div class="underline"></div>
+                    <div class="contato">
+                        <p>Call me at:</p>
+                        +55 27 99263-0101
+                        <br>
+                        <br>
+                        <p>Email me at:</p>
+                        <a href="mailto:arthursegato@outlook.com">arthursegato@outlook.com</a>
+                        <br>
+                        <br>
+                        <p>You can also find me at:</p>
+                        <a href="https://github.com/ArthurSegato">Github - /ArthurSegato</a>
+                        <br>
+                        Discord - SəGλTø#7568
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer py-4 text-white-50">
+        <div class="container text-center">
+          <small>
+          Made with <a onclick="easter()" class="easter">❤️</a> by Arthur Segato.
+          <br>
+          &copy; 2019 - 2020 All rights reserved.
+          </small>
+        </div>
+    </footer>
+    <script>
+        function easter(){
+        function randomInRange(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+        confetti({
+            angle: randomInRange(55, 125),
+            spread: randomInRange(50, 70),
+            particleCount: randomInRange(50, 100),
+            origin: { y: 0.95 }
+        });
+        var pop = new Audio('pop.mp3');
+        pop.addEventListener('canplaythrough', function() {
+        pop.play();
+        });
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.1.0/dist/confetti.browser.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
