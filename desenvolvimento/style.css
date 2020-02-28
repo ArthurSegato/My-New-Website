@@ -182,12 +182,6 @@ margin-right: 0px!important;
 	z-index: 99;
   }
   
-  .hover-5-title span {
-	transition: all 0.4s;
-	opacity: 0;
-	color:#7f00ff;
-  }
-  
   .hover-5:hover .hover-overlay {
 	background: rgba(0, 0, 0, 0.8);
   }
@@ -196,7 +190,7 @@ margin-right: 0px!important;
 	bottom: 0;
   }
   
-  .hover-5:hover .hover-5-title span {
+  .hover-5:hover {
 	opacity: 1;
   }
   
@@ -229,7 +223,7 @@ margin-right: 0px!important;
 
 .contato a{
 	font-weight: 400;
-	color: #ffffff;
+	text-decoration-color: #7f00ff;
 }
 
 /*	Footer	*/
