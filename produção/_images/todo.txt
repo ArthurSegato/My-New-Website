@@ -2,3 +2,4 @@ Otimizar imagens
 Minificar
 Remover Css não usado
 Baixar boostrap e etc no servidor do site
+re fazer imagem do twitter que cortou a perna da logo
