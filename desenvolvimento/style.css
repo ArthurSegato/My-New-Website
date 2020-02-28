@@ -9,6 +9,10 @@ body {
 	position: relative;
 }
 
+a, a:hover {
+	color: #ffffff;
+}
+
 /*--- Extra Bootstrap Column Padding --*/
 [class*="col-"] {
 	padding: 1rem;

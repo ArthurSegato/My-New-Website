@@ -8,4 +8,8 @@ function easter(){
         particleCount: randomInRange(50, 100),
         origin: { y: 0.95 }
     });
+    var pop = new Audio('pop.mp3');
+    pop.addEventListener('canplaythrough', function() {
+    pop.play();
+});
 }
