@@ -1,0 +1,4 @@
+Otimizar imagens
+Minificar
+Remover Css não usado
+Baixar boostrap e etc no servidor do site
