@@ -27,6 +27,249 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Muli:700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap.min.css">
     <title>Arthur Segato - Web & Game Developer</title>
+    <style type="text/css">
+        html{
+            height: 100%;
+        }
+        body{
+            overflow-x: hidden;
+             height: 100%;
+             color: #ffffff;
+             position: relative;
+        }
+        a, a:hover{
+            color: #ffffff;
+        }
+        [class*="col-"]{
+            padding: 1rem;
+        }
+        .row, .container-fluid{
+            margin-left: 0px!important;
+             margin-right: 0px!important;
+        }
+        .fixed-top{
+            -webkit-backface-visibility: hidden;
+        }
+        .landing{
+            width: 100%;
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+        }
+        .jumbotron{
+            margin: 0;
+        }
+        .navbar{
+            font-family: 'Muli', sans-serif;
+             font-weight: 700;
+             text-transform: uppercase;
+             background-color: rgba(0,0,0, 0.8) !important;
+        }
+        .navbar-brand{
+            font-family: 'Muli', sans-serif;
+             font-weight: 700;
+        }
+        .navbar-nav li{
+            padding-right: 4.375rem;
+        }
+        .navbar-dark .navbar-nav .nav-link{
+            color: #ffffff;
+        }
+        .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+            color: #7f00ff;
+        }
+        .tamanho{
+            height: 100%;
+        }
+        .bg1{
+            background-image: url("_images/home.jpg");
+        }
+        .caption{
+            width: 100%;
+             max-width: 100%;
+             position: absolute;
+             top: 33.6%;
+             z-index: 1;
+             color: #ffffff;
+        }
+        .caption h1{
+            font-family: 'Muli', sans-serif;
+             font-weight: 900;
+             padding-left: 7.8%;
+        }
+        .bg2{
+            background-color: #252525;
+        }
+        .jumbotron{
+            background-color: transparent;
+             z-index: 5;
+        }
+        .titulo{
+            font-family: "Lato", sans-serif;
+             font-weight: 700;
+             letter-spacing: 5px;
+             color: #7f00ff;
+        }
+        .sub{
+            font-family: "Lato", sans-serif;
+             font-weight: 400;
+        }
+        .texto{
+            font-family: "Lato", sans-serif;
+             font-weight: 400;
+             padding-left: 10%;
+             padding-right: 10%;
+             padding-top: 3%;
+        }
+        .feature p{
+            font-family: "Lato", sans-serif;
+             font-weight: 400;
+             margin: 0;
+        }
+        .bg3{
+            background-image: url("_images/projects.jpg");
+        }
+        .hover{
+            overflow: hidden;
+             position: relative;
+             margin: 10px;
+        }
+        .hover-overlay{
+            width: 100%;
+             height: 100%;
+             position: absolute;
+             top: 0;
+             left: 0;
+             z-index: 90;
+             transition: all 0.4s;
+        }
+        .hover img{
+            width: 100%;
+             transition: all 0.3s;
+        }
+        .hover-content{
+            position: relative;
+             z-index: 99;
+        }
+        .hover-5::after{
+            content: "";
+             width: 100%;
+             height: 10px;
+             background: #7f00ff;
+             position: absolute;
+             bottom: -10px;
+             left: 0;
+             display: block;
+             transition: all 0.3s;
+             z-index: 999;
+        }
+        .hover-5 .hover-overlay{
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .hover-5-title{
+            position: absolute;
+             bottom: 1rem;
+             left: 0;
+             transition: all 0.3s;
+             padding: 2rem 3rem;
+             z-index: 99;
+        }
+        .hover-5:hover .hover-overlay{
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .hover-5:hover .hover-5-title{
+            bottom: 0;
+        }
+        .hover-5:hover{
+            opacity: 1;
+        }
+        .hover-5:hover::after{
+            bottom: 0;
+        }
+        .bg4{
+            background-image: url("_images/contact.jpg");
+        }
+        .underline{
+            height: 3px;
+             width: 100%;
+             background-color: #7f00ff;
+        }
+        .contato{
+            font-family: "Lato", sans-serif;
+             padding-top: 10%;
+             text-decoration: none;
+        }
+        .contato p{
+            font-weight: 700;
+             color: #7f00ff;
+             margin: 0;
+        }
+        .contato a{
+            font-weight: 400;
+             text-decoration-color: #7f00ff;
+        }
+        .footer{
+            background-color:#252525;
+        }
+        .easter{
+            cursor: pointer;
+        }
+        .trinta{
+            font-size: calc(0.4464285714285714vw + 14.571428571428571px);
+        }
+        .cessenta{
+            font-size: calc(0.8928571428571428vw + 29.142857142857142px);
+        }
+        .cem{
+            font-size: calc(1.5625vw + 48px);
+        }
+        @media (min-width: 768px){
+            .tinta{
+                font-size: calc(0.6756756756756757vw + 12.81081081081081px);
+            }
+            .cessenta{
+                font-size: calc(1.3513513513513513vw + 25.62162162162162px);
+            }
+            .cem{
+                font-size: calc(2.195945945945946vw + 43.13513513513514px);
+            }
+        }
+        @media (min-width: 1360px){
+            .trinta{
+                font-size: calc(1.4285714285714286vw + 2.5714285714285716px);
+            }
+            .cessenta{
+                font-size: calc(2.857142857142857vw + 5.142857142857143px);
+            }
+            .cem{
+                font-size: calc(4.821428571428572vw + 7.428571428571429px);
+            }
+        }
+        @media (min-width: 1920px){
+            .trinta{
+                font-size: 30px;
+            }
+            .cessenta{
+                font-size: 60px;
+            }
+            .cem{
+                font-size: 100px;
+            }
+        }
+        .blinking-cursor{
+            animation: 1s blink step-end infinite;
+        }
+        @keyframes blink{
+            from, to{
+                color: transparent;
+                 text-shadow: none;
+            }
+            50%{
+                color: #ffffff;
+            }
+        }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="0">
     <!-- Navbar -->
@@ -207,8 +450,6 @@
           </small>
         </div>
     </footer>
-    <script src="confetti.browser.min.js"></script>
-    <script src="jquery-3.4.1.min.js"></script>
-    <script src="bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
     </body>
 </html>
