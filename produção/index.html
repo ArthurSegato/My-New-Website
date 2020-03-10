@@ -1,293 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV!">
-    <meta property="og:title" content="Arthur Segato - Web & Game Developer"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:description" content="Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV!"/>
-    <meta property="og:image" content="https://arthursegato.com/_images/facebook.webp"/>
-    <meta property="og:url" content="https://arthursegato.com"/>
-    <meta property="og:site_name" content="Arthur Segato - Web & Game Developer"/>
-    <meta name="twitter:title" content="Arthur Segato - Web & Game Developer">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:description" content="Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV!">
-    <meta name="twitter:image" content="https://arthursegato.com/_images/twitter.webp">
-    <meta name="twitter:url" content="https://arthursegato.com">
-    <meta name="msapplication-TileColor" content="#7f00ff">
-    <meta name="msapplication-config" content="browserconfig.xml">
-    <meta name="theme-color" content="#7f00ff">
-    <meta name="revisit-after" content="1 day">
-    <meta name="keywords" content="html, css, JavaScript, web, game, portfolio, development, designer, programmer, computer science, web development, game development">
-    <meta name="robots" content="">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#7f00ff">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="canonical" href="https://arthursegato.com">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV!" name="description">
+    <meta content="Arthur Segato - Web & Game Developer" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV!" property="og:description">
+    <meta content="https://arthursegato.com/_images/facebook.webp" property="og:image">
+    <meta content="https://arthursegato.com" property="og:url">
+    <meta content="Arthur Segato - Web & Game Developer" property="og:site_name">
+    <meta content="Arthur Segato - Web & Game Developer" name="twitter:title">
+    <meta content="summary" name="twitter:card">
+    <meta content="Hi, I am Arthur Segato Paulo, I'm currently studying computer science at the Vila Velha University - UVV!" name="twitter:description">
+    <meta content="https://arthursegato.com/_images/twitter.webp" name="twitter:image">
+    <meta content="https://arthursegato.com" name="twitter:url">
+    <meta content="#7f00ff" name="msapplication-TileColor">
+    <meta content="browserconfig.xml" name="msapplication-config">
+    <meta content="#7f00ff" name="theme-color">
+    <meta content="1 day" name="revisit-after">
+    <meta content="html, css, JavaScript, web, game, portfolio, development, designer, programmer, computer science, web development, game development" name="keywords">
+    <meta content="" name="robots">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="site.webmanifest" rel="manifest">
+    <link href="safari-pinned-tab.svg" rel="mask-icon">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="https://arthursegato.com" rel="canonical">
     <title>Arthur Segato - Web & Game Developer</title>
     <style type="text/css">
-        html{
-            height: 100%;
-            scroll-behavior: smooth;
-        }
-        body{
-            overflow-x: hidden;
-             height: 100%;
-             color: #ffffff;
-             position: relative;
-             background-color: #252525;
-             
-        }
-        a, a:hover{
-            color: #ffffff;
-        }
-        [class*="col-"]{
-            padding: 1rem;
-        }
-        .row, .container-fluid{
-            margin-left: 0px!important;
-             margin-right: 0px!important;
-        }
-        .fixed-top{
-            -webkit-backface-visibility: hidden;
-        }
-        .landing{
-            width: 100%;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .jumbotron{
-            margin: 0;
-        }
-        .navbar{
-            font-family: 'Muli', sans-serif;
-             font-weight: 700;
-             text-transform: uppercase;
-             background-color: rgba(0,0,0, 0.8) !important;
-        }
-        .navbar-brand{
-            font-family: 'Muli', sans-serif;
-            font-weight: 700;
-        }
-        .navbar-nav li{
-            padding-right: 4.375rem;
-        }
-        .navbar-dark .navbar-nav .nav-link{
-            color: #ffffff;
-        }
-        .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
-            color: #7f00ff;
-        }
-        .tamanho{
-            height: 100%;
-        }
-        .bg1{
-            background-image: url("_images/home.webp");
-        }
-        .caption{
-            width: 100%;
-            max-width: 100%;
-            position: absolute;
-            top: 33.6%;
-            z-index: 1;
-            color: #ffffff;
-        }
-        .caption h1,h2{
-            font-family: 'Muli', sans-serif;
-             font-weight: 900;
-             padding-left: 7.8%;
-        }
-        .bg2{
-            background-color: #252525;
-        }
-        .jumbotron{
-            background-color: transparent;
-             z-index: 5;
-        }
-        .titulo{
-            font-family: "Lato", sans-serif;
-             font-weight: 700;
-             letter-spacing: 5px;
-             color: #7f00ff;
-        }
-        .sub{
-            font-family: "Lato", sans-serif;
-             font-weight: 400;
-        }
-        .texto{
-            font-family: "Lato", sans-serif;
-             font-weight: 400;
-             padding-left: 10%;
-             padding-right: 10%;
-             padding-top: 3%;
-        }
-        .feature p{
-            font-family: "Lato", sans-serif;
-             font-weight: 400;
-             margin: 0;
-        }
-        .bg3{
-            background-image: url("_images/projects.webp");
-        }
-        .hover{
-            overflow: hidden;
-             position: relative;
-             margin: 10px;
-        }
-        .hover-overlay{
-            width: 100%;
-             height: 100%;
-             position: absolute;
-             top: 0;
-             left: 0;
-             z-index: 90;
-             transition: all 0.4s;
-        }
-        .hover img{
-            width: 100%;
-             transition: all 0.3s;
-        }
-        .hover-content{
-            position: relative;
-             z-index: 99;
-        }
-        .hover-5::after{
-            content: "";
-             width: 100%;
-             height: 10px;
-             background: #7f00ff;
-             position: absolute;
-             bottom: -10px;
-             left: 0;
-             display: block;
-             transition: all 0.3s;
-             z-index: 999;
-        }
-        .hover-5 .hover-overlay{
-            background: rgba(0, 0, 0, 0.4);
-        }
-        .hover-5-title{
-            position: absolute;
-             bottom: 1rem;
-             left: 0;
-             transition: all 0.3s;
-             padding: 2rem 3rem;
-             z-index: 99;
-        }
-        .hover-5:hover .hover-overlay{
-            background: rgba(0, 0, 0, 0.8);
-        }
-        .hover-5:hover .hover-5-title{
-            bottom: 0;
-        }
-        .hover-5:hover{
-            opacity: 1;
-        }
-        .hover-5:hover::after{
-            bottom: 0;
-        }
-        .underline{
-            height: 3px;
-             width: 100%;
-             background-color: #7f00ff;
-        }
-        .contato{
-            font-family: "Lato", sans-serif;
-             padding-top: 10%;
-             text-decoration: none;
-        }
-        .contato p{
-            font-weight: 700;
-             color: #7f00ff;
-             margin: 0;
-        }
-        .contato a{
-            font-weight: 400;
-             text-decoration-color: #7f00ff;
-        }
-        .footer{
-            background-color:#151515;
-        }
-        .easter{
-            cursor: pointer;
-        }
-        .trinta{
-            font-size: calc(0.4464285714285714vw + 14.571428571428571px);
-        }
-        .cessenta{
-            font-size: calc(0.8928571428571428vw + 29.142857142857142px);
-        }
-        .cem{
-            font-size: calc(1.5625vw + 48px);
-        }
-        @media (min-width: 768px){
-            .tinta{
-                font-size: calc(0.6756756756756757vw + 12.81081081081081px);
-            }
-            .cessenta{
-                font-size: calc(1.3513513513513513vw + 25.62162162162162px);
-            }
-            .cem{
-                font-size: calc(2.195945945945946vw + 43.13513513513514px);
-            }
-        }
-        @media (min-width: 1360px){
-            .trinta{
-                font-size: calc(1.4285714285714286vw + 2.5714285714285716px);
-            }
-            .cessenta{
-                font-size: calc(2.857142857142857vw + 5.142857142857143px);
-            }
-            .cem{
-                font-size: calc(4.821428571428572vw + 7.428571428571429px);
-            }
-        }
-        @media (min-width: 1920px){
-            .trinta{
-                font-size: 30px;
-            }
-            .cessenta{
-                font-size: 60px;
-            }
-            .cem{
-                font-size: 100px;
-            }
-        }
-        .blinking-cursor{
-            animation: 1s blink step-end infinite;
-        }
-        @keyframes blink{
-            from, to{
-                color: transparent;
-                 text-shadow: none;
-            }
-            50%{
+           html{
+               height: 100%;
+               scroll-behavior: smooth;
+           }
+           body{
+               overflow-x: hidden;
+                height: 100%;
                 color: #ffffff;
-            }
-        }
-        .seohack{
-            display: none;
-        }
+                position: relative;
+                background-color: #252525;
+                
+           }
+           a, a:hover{
+               color: #ffffff;
+           }
+           [class*="col-"]{
+               padding: 1rem;
+           }
+           .row, .container-fluid{
+               margin-left: 0px!important;
+                margin-right: 0px!important;
+           }
+           .fixed-top{
+               -webkit-backface-visibility: hidden;
+           }
+           .landing{
+               width: 100%;
+               background-attachment: fixed;
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+           }
+           .jumbotron{
+               margin: 0;
+           }
+           .navbar{
+               font-family: 'Muli', sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                background-color: rgba(0,0,0, 0.8) !important;
+           }
+           .navbar-brand{
+               font-family: 'Muli', sans-serif;
+               font-weight: 700;
+           }
+           .navbar-nav li{
+               padding-right: 4.375rem;
+           }
+           .navbar-dark .navbar-nav .nav-link{
+               color: #ffffff;
+           }
+           .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+               color: #7f00ff;
+           }
+           .tamanho{
+               height: 100%;
+           }
+           .bg1{
+               background-image: url("_images/home.webp");
+           }
+           .caption{
+               width: 100%;
+               max-width: 100%;
+               position: absolute;
+               top: 33.6%;
+               z-index: 1;
+               color: #ffffff;
+           }
+           .caption h1,h2{
+               font-family: 'Muli', sans-serif;
+                font-weight: 900;
+                padding-left: 7.8%;
+           }
+           .bg2{
+               background-color: #252525;
+           }
+           .jumbotron{
+               background-color: transparent;
+                z-index: 5;
+           }
+           .titulo{
+               font-family: "Lato", sans-serif;
+                font-weight: 700;
+                letter-spacing: 5px;
+                color: #7f00ff;
+           }
+           .sub{
+               font-family: "Lato", sans-serif;
+                font-weight: 400;
+           }
+           .texto{
+               font-family: "Lato", sans-serif;
+                font-weight: 400;
+                padding-left: 10%;
+                padding-right: 10%;
+                padding-top: 3%;
+           }
+           .feature p{
+               font-family: "Lato", sans-serif;
+                font-weight: 400;
+                margin: 0;
+           }
+           .bg3{
+               background-image: url("_images/projects.webp");
+           }
+           .hover{
+               overflow: hidden;
+                position: relative;
+                margin: 10px;
+           }
+           .hover-overlay{
+               width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 90;
+                transition: all 0.4s;
+           }
+           .hover img{
+               width: 100%;
+                transition: all 0.3s;
+           }
+           .hover-content{
+               position: relative;
+                z-index: 99;
+           }
+           .hover-5::after{
+               content: "";
+                width: 100%;
+                height: 10px;
+                background: #7f00ff;
+                position: absolute;
+                bottom: -10px;
+                left: 0;
+                display: block;
+                transition: all 0.3s;
+                z-index: 999;
+           }
+           .hover-5 .hover-overlay{
+               background: rgba(0, 0, 0, 0.4);
+           }
+           .hover-5-title{
+               position: absolute;
+                bottom: 1rem;
+                left: 0;
+                transition: all 0.3s;
+                padding: 2rem 3rem;
+                z-index: 99;
+           }
+           .hover-5:hover .hover-overlay{
+               background: rgba(0, 0, 0, 0.8);
+           }
+           .hover-5:hover .hover-5-title{
+               bottom: 0;
+           }
+           .hover-5:hover{
+               opacity: 1;
+           }
+           .hover-5:hover::after{
+               bottom: 0;
+           }
+           .underline{
+               height: 3px;
+                width: 100%;
+                background-color: #7f00ff;
+           }
+           .contato{
+               font-family: "Lato", sans-serif;
+                padding-top: 10%;
+                text-decoration: none;
+           }
+           .contato p{
+               font-weight: 700;
+                color: #7f00ff;
+                margin: 0;
+           }
+           .contato a{
+               font-weight: 400;
+                text-decoration-color: #7f00ff;
+           }
+           .footer{
+               background-color:#151515;
+           }
+           .easter{
+               cursor: pointer;
+           }
+           .trinta{
+               font-size: calc(0.4464285714285714vw + 14.571428571428571px);
+           }
+           .cessenta{
+               font-size: calc(0.8928571428571428vw + 29.142857142857142px);
+           }
+           .cem{
+               font-size: calc(1.5625vw + 48px);
+           }
+           @media (min-width: 768px){
+               .tinta{
+                   font-size: calc(0.6756756756756757vw + 12.81081081081081px);
+               }
+               .cessenta{
+                   font-size: calc(1.3513513513513513vw + 25.62162162162162px);
+               }
+               .cem{
+                   font-size: calc(2.195945945945946vw + 43.13513513513514px);
+               }
+           }
+           @media (min-width: 1360px){
+               .trinta{
+                   font-size: calc(1.4285714285714286vw + 2.5714285714285716px);
+               }
+               .cessenta{
+                   font-size: calc(2.857142857142857vw + 5.142857142857143px);
+               }
+               .cem{
+                   font-size: calc(4.821428571428572vw + 7.428571428571429px);
+               }
+           }
+           @media (min-width: 1920px){
+               .trinta{
+                   font-size: 30px;
+               }
+               .cessenta{
+                   font-size: 60px;
+               }
+               .cem{
+                   font-size: 100px;
+               }
+           }
+           .blinking-cursor{
+               animation: 1s blink step-end infinite;
+           }
+           @keyframes blink{
+               from, to{
+                   color: transparent;
+                    text-shadow: none;
+               }
+               50%{
+                   color: #ffffff;
+               }
+           }
+           .seohack{
+               display: none;
+           }
     </style>
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="0">
+</head>
+<body data-offset="0" data-spy="scroll" data-target=".navbar">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-        <a class="navbar-brand trinta" href="#home">
-            <img src="_images/logo.svg" width="50" height="50" alt="Arthur segato logo">
-            ARTHUR SEGATO
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand trinta" href="#home"><img alt="Arthur segato logo" height="50" src="_images/logo.svg" width="50"> ARTHUR SEGATO</a> <button class="navbar-toggler" data-target="#navbarSite" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse trinta" id="navbarSite">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -310,25 +304,22 @@
                 </li>
             </ul>
         </div>
-    </nav>
-    <!-- HOME -->
-    <div id="home" class="landing tamanho bg1">
+    </nav><!-- HOME -->
+    <div class="landing tamanho bg1" id="home">
         <div class="caption text-left">
             <h1 class="cem">Arthur Segato</h1>
             <h2 class="cem">Web && Game</h2>
             <h2 class="cem">Developer<span class="blinking-cursor">|</span></h2>
         </div>
-    </div>
-    <!-- ABOUT -->
-    <div id="about" class="landing">
+    </div><!-- ABOUT -->
+    <div class="landing" id="about">
         <div class="jumbotron">
             <div class="narrow">
                 <div class="col-12">
                     <p class="titulo text-center trinta">I AM</p>
                     <h2 class="sub text-center cessenta">ARTHUR SEGATO PAULO</h2>
-                    <p class="texto trinta">Born in 1999, and living in Brazil.<br>I'm currently studying computer science
-                        at the Vila Velha University - UVV, with intention of specialize in game development, interested in
-                        networking, security and web development, I'm also an open source activist.</p>
+                    <p class="texto trinta">Born in 1999, and living in Brazil.<br>
+                    I'm currently studying computer science at the Vila Velha University - UVV, with intention of specialize in game development, interested in networking, security and web development, I'm also an open source activist.</p>
                 </div>
                 <div class="container-fluid">
                     <div class="row text-center">
@@ -360,69 +351,52 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- PROJECTS -->
-    <div id="projects" class="landing bg3">
-            <div class="jumbotron">
-                <div class="narrow">
-                    <div class="col-12">
-                        <p class="titulo text-center trinta">PROJECTS</p>
-                        <h2 class="sub text-center cessenta">SOME OF MY LATEST WORKS</h2>
-                    </div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <a href="#">
-                                <div class="hover hover-5">
-                                    <img src="_images/soon.png" alt="nekoware image" width="300" height="500">
-                                    <div class="hover-overlay"></div>
-                                    <div class="hover-5-content">
-                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
-                                        Nekoware <strong class="font-weight-bold text-white">License</strong>
-                                    </h3>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="hover hover-5">
-                                    <img src="_images/soon.png" alt="coming soon" width="300" height="500">
-                                    <div class="hover-overlay"></div>
-                                    <div class="hover-5-content">
-                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
-                                        Coming <strong class="font-weight-bold text-white">Soon </strong>
-                                    </h3>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="w-100"></div>
-                            <a href="#">
-                                <div class="hover hover-5">
-                                    <img src="_images/soon.png" alt="coming soon" width="300" height="500">
-                                    <div class="hover-overlay"></div>
-                                    <div class="hover-5-content">
-                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
-                                        Coming <strong class="font-weight-bold text-white">Soon </strong>
-                                    </h3>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="hover hover-5">
-                                    <img src="_images/soon.png" alt="coming soon" width="300" height="500">
-                                    <div class="hover-overlay"></div>
-                                    <div class="hover-5-content">
-                                    <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
-                                        Coming <strong class="font-weight-bold text-white">Soon </strong>
-                                    </h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+    </div><!-- PROJECTS -->
+    <div class="landing bg3" id="projects">
+        <div class="jumbotron">
+            <div class="narrow">
+                <div class="col-12">
+                    <p class="titulo text-center trinta">PROJECTS</p>
+                    <h2 class="sub text-center cessenta">SOME OF MY LATEST WORKS</h2>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <a href="#">
+                        <div class="hover hover-5">
+                            <img alt="nekoware image" height="500" src="_images/soon.png" width="300">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-5-content">
+                                <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Nekoware <strong class="font-weight-bold text-white">License</strong></h3>
+                            </div>
+                        </div></a> <a href="#">
+                        <div class="hover hover-5">
+                            <img alt="coming soon" height="500" src="_images/soon.png" width="300">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-5-content">
+                                <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Coming <strong class="font-weight-bold text-white">Soon</strong></h3>
+                            </div>
+                        </div></a>
+                        <div class="w-100"></div><a href="#">
+                        <div class="hover hover-5">
+                            <img alt="coming soon" height="500" src="_images/soon.png" width="300">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-5-content">
+                                <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Coming <strong class="font-weight-bold text-white">Soon</strong></h3>
+                            </div>
+                        </div></a> <a href="#">
+                        <div class="hover hover-5">
+                            <img alt="coming soon" height="500" src="_images/soon.png" width="300">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-5-content">
+                                <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Coming <strong class="font-weight-bold text-white">Soon</strong></h3>
+                            </div>
+                        </div></a>
                     </div>
                 </div>
             </div>
-    </div>
-    <!-- CONTACT   -->
-    <div id="contact" class="landing">
+        </div>
+    </div><!-- CONTACT   -->
+    <div class="landing" id="contact">
         <div class="jumbotron">
             <div class="narrow">
                 <div class="col-12">
@@ -431,17 +405,11 @@
                 <div class="container-md col-5 trinta">
                     <div class="underline"></div>
                     <div class="contato">
-                        <p>Call me at:</p>
-                        +55 27 99263-0101
+                        <p>Call me at:</p>+55 27 99263-0101<br>
                         <br>
+                        <p>Email me at:</p><a href="mailto:contact@arthursegato.com">contact@arthursegato.com</a><br>
                         <br>
-                        <p>Email me at:</p>
-                        <a href="mailto:contact@arthursegato.com">contact@arthursegato.com</a>
-                        <br>
-                        <br>
-                        <p>You can also find me at:</p>
-                        <a href="https://github.com/ArthurSegato">Github - /ArthurSegato</a>
-                        <br>
+                        <p>You can also find me at:</p><a href="https://github.com/ArthurSegato">Github - /ArthurSegato</a><br>
                         Discord - SəGλTø#7568
                     </div>
                 </div>
@@ -450,27 +418,14 @@
     </div>
     <footer class="footer py-4 text-white-50">
         <div class="container text-center">
-          <small>
-          Made with <a onclick="easter()" class="easter">❤️</a> by Arthur Segato.
-          <br>
-          &copy; 2019 - 2020 All rights reserved.
-          </small>
+            <small>Made with <a class="easter" onclick="easter()">❤️</a> by Arthur Segato.<br>
+            &copy; 2019 - 2020 All rights reserved.</small>
         </div>
     </footer>
     <div class="seohack">
-        Front-end is the part that the user sees on the computer screen, and with which he interacts. That is, the front of the website, platform or system. The development of the front-end depends on 3 concepts: a markup language (HTML), a style language (CSS) and a scripted or interpreted language (JavaScript).
-HTML is responsible for creating every visual element on the page. Buttons, forms, images, everything is defined through HTML markup. In parallel, CSS is responsible for visually changing these elements: modifying colors, shapes, sizes, applying visual effects, among others. Both are closely linked, making it possible to view elements in a variety of ways.
-JavaScript is used to process information and perform dynamic interactions on the page. When you open an image gallery and click on go to next, or when you press a button that pops up a window with more information about a headline, it all works with JavaScript.
-Every website has to be hosted on a server (be it from Google, Amazon among others) and it is there where information is kept, such as database, login and password in addition to all systems and data processing. We at Kingly Studio mainly use PHP to program and MySQL as a database, but several other programming languages ​​can be used, such as Python and Ruby on Rails, which are currently the most popular and widespread.
-The platforms developed for the Web are produced with consolidated and well-explored technology, therefore, their development time is usually faster and the costs are lower compared, for example, to Mobile Development, which is made with recent technologies and the creation of different apps for Android and iOS smartphones.
-Unity is one of the main engines used worldwide. With it it is possible to create from the simplest 2D games to the most complex 3D games for PC, console and mobile.
-Front-end is the part that the user sees on the computer screen, and with which he interacts. That is, the front of the website, platform or system. The development of the front-end depends on 3 concepts: a markup language (HTML), a style language (CSS) and a scripted or interpreted language (JavaScript).
-HTML is responsible for creating every visual element on the page. Buttons, forms, images, everything is defined through HTML markup. In parallel, CSS is responsible for visually changing these elements: modifying colors, shapes, sizes, applying visual effects, among others. Both are closely linked, making it possible to view elements in a variety of ways.
-JavaScript is used to process information and perform dynamic interactions on the page. When you open an image gallery and click on go to next, or when you press a button that pops up a window with more information about a headline, it all works with JavaScript.
-Every website has to be hosted on a server (be it from Google, Amazon among others) and it is there where information is kept, such as database, login and password in addition to all systems and data processing. We at Kingly Studio mainly use PHP to program and MySQL as a database, but several other programming languages ​​can be used, such as Python and Ruby on Rails, which are currently the most popular and widespread.
-The platforms developed for the Web are produced with consolidated and well-explored technology, therefore, their development time is usually faster and the costs are lower compared, for example, to Mobile Development, which is made with recent technologies and the creation of different apps for Android and iOS smartphones.
-Unity is one of the main engines used worldwide. With it it is possible to create from the simplest 2D games to the most complex 3D games for PC, console and mobile.
+        Front-end is the part that the user sees on the computer screen, and with which he interacts. That is, the front of the website, platform or system. The development of the front-end depends on 3 concepts: a markup language (HTML), a style language (CSS) and a scripted or interpreted language (JavaScript). HTML is responsible for creating every visual element on the page. Buttons, forms, images, everything is defined through HTML markup. In parallel, CSS is responsible for visually changing these elements: modifying colors, shapes, sizes, applying visual effects, among others. Both are closely linked, making it possible to view elements in a variety of ways. JavaScript is used to process information and perform dynamic interactions on the page. When you open an image gallery and click on go to next, or when you press a button that pops up a window with more information about a headline, it all works with JavaScript. Every website has to be hosted on a server (be it from Google, Amazon among others) and it is there where information is kept, such as database, login and password in addition to all systems and data processing. We at Kingly Studio mainly use PHP to program and MySQL as a database, but several other programming languages ​​can be used, such as Python and Ruby on Rails, which are currently the most popular and widespread. The platforms developed for the Web are produced with consolidated and well-explored technology, therefore, their development time is usually faster and the costs are lower compared, for example, to Mobile Development, which is made with recent technologies and the creation of different apps for Android and iOS smartphones. Unity is one of the main engines used worldwide. With it it is possible to create from the simplest 2D games to the most complex 3D games for PC, console and mobile. Front-end is the part that the user sees on the computer screen, and with which he interacts. That is, the front of the website, platform or system. The development of the front-end depends on 3 concepts: a markup language (HTML), a style language (CSS) and a scripted or interpreted language (JavaScript). HTML is responsible for creating every visual element on the page. Buttons, forms, images, everything is defined through HTML markup. In parallel, CSS is responsible for visually changing these elements: modifying colors, shapes, sizes, applying visual effects, among others. Both are closely linked, making it possible to view elements in a variety of ways. JavaScript is used to process information and perform dynamic interactions on the page. When you open an image gallery and click on go to next, or when you press a button that pops up a window with more information about a headline, it all works with JavaScript. Every website has to be hosted on a server (be it from Google, Amazon among others) and it is there where information is kept, such as database, login and password in addition to all systems and data processing. We at Kingly Studio mainly use PHP to program and MySQL as a database, but several other programming languages ​​can be used, such as Python and Ruby on Rails, which are currently the most popular and widespread. The platforms developed for the Web are produced with consolidated and well-explored technology, therefore, their development time is usually faster and the costs are lower compared, for example, to Mobile Development, which is made with recent technologies and the creation of different apps for Android and iOS smartphones. Unity is one of the main engines used worldwide. With it it is possible to create from the simplest 2D games to the most complex 3D games for PC, console and mobile.
     </div>
-    <script src="scripts.js"></script>
-    </body>
+    <script src="scripts.js">
+    </script>
+</body>
 </html>
