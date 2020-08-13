@@ -105,6 +105,27 @@ a, a:hover {
 	padding-top: 10%;
 }
 
+.social {
+	position: relative;
+	left: -500px;
+}
+
+.change .social{
+	left: 0px;
+}
+
+.social svg {
+	width: 30px;
+	margin-right: 10px;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.change .social svg {
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+
 /* PROJECTS */
 .cell {
 	height: 400px;
