@@ -2,13 +2,10 @@
 - Fazer SiteMap.xml
 - Fazer Meta tags
 - Usar Icone SVG (mudar com o modo escuro)
-- Usar Jpeg otimizado com o MozJPEG
+- Comprimir imagens (qualidade boa) https://imagecompressor.io/compress
 - Usar background como svg?
-- Usar gifs e imagems estáticas nos projetos
-- Salvar o conteudo dos projetos num arquivo .json a parte?
 - Quando clicar no projeto ou ele abre a pagina se tiver ou uma tela com os dados do projeto em si
 - Mudar as páginas de erro
-- Otimizar os gifs!
 - Criar uma página de créditos
 - Colocar easter eggs no código fonte
 - Colocar curriculo
@@ -17,7 +14,6 @@
 - Comprimir os scripts pra um só
 - Minificar todo o código
 - Deixar os icones na raiz do site
-- Instalar as fontes localmente
 - Revisar HtAcess
 - Quando a pessoa clica no 'contato' descem 3 icones (email, discord, github)
 - Quando clica no 'resume' mostra o curriculo.pdf

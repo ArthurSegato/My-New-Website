@@ -1,0 +1,135 @@
+/* RESETS*/
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #101010;
+	color: white;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/* HOME */
+#home {
+	background: url("../_images/tokyo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.home-text {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+
+.title h1 {
+	font-family: 'True Lies', sans-serif;
+	letter-spacing: 0.2em;
+	margin-bottom: 0;
+}
+
+.list {
+	padding-top: 10%;
+}
+
+/* PROJECTS */
+
+.cell {
+	height: 400px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cell-body {
+	height: 100%;
+	width: 100%;
+	transition-duration: 0.5s;
+	opacity: 0;
+}
+
+.cell-body:hover {
+	background-color: black;
+	transition-duration: 0.5s;
+	opacity: 0.8;
+}
+
+.cell p {
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+/* FONTS */
+
+.thin {
+	font-weight: 100;
+}
+
+.regular{
+	font-weight: 400;
+}
+
+.seventy-two {
+	font-size: calc(1.5625vw + 40px);
+}
+
+.thirty {
+	font-size: calc(0.6696428571428571vw + 18.857142857142858px);
+}
+
+.twenty {
+	font-size: calc(0.4464285714285714vw + 12.571428571428571px);
+}
+
+@media (min-width: 768px) {
+	.seventy-two {
+		font-size: calc(2.195945945945946vw + 40.13513513513514px);
+	}
+
+	.thirty {
+		font-size: calc(0.8445945945945946vw + 17.513513513513512px);
+	}
+
+	.twenty {
+		font-size: calc(0.6756756756756757vw + 10.81081081081081px);
+	}
+}
+@media (min-width: 1360px) {
+	.seventy-two {
+		font-size: calc(4.642857142857143vw + 6.857142857142857px);
+	}
+
+	.thirty {
+		font-size: calc(1.9642857142857142vw + 2.2857142857142856px);
+	}
+
+	.twenty {
+		font-size: calc(1.25vw + 3px);
+	}
+}
+@media (min-width: 1920px) {
+	.seventy-two {
+		font-size: 96px;
+	}
+
+	.thirty {
+		font-size: 40px;
+	}
+
+	.twenty {
+		font-size: 27px;
+	}
+}
