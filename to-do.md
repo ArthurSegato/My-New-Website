@@ -16,7 +16,6 @@
 - Deixar os icones na raiz do site
 - Revisar HtAcess
 - Quando a pessoa clica no 'contato' descem 3 icones (email, discord, github)
-- Quando clica no 'resume' mostra o curriculo.pdf
 - Quando clica em 'credits' vai pra página de créditos
 - Quando clica no '???' todo o site fica em japonês
 

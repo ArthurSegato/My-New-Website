@@ -16,9 +16,72 @@ a, a:hover {
 	color: white;
 }
 
+/* SIDENAV */
+.sideNav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #101010;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sideNav a {
+  padding: 8px 8px 8px 32px;
+  display: block;
+  transition: 0.3s;
+}
+
+/* MENU */
+.menu-btn {
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.bar1, .bar3 {
+	position: relative;
+	left: 10px;
+	width: 50px;
+	height: 5px;
+	background-color: #ffffff;
+	margin: 10px 0;
+	transition: 0.4s;
+}
+
+.bar2 {
+	width: 60px;
+	height: 5px;
+	background-color: #ffffff;
+	margin: 10px 0;
+	transition: 0.4s;
+}
+
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-15px, 5px);
+	transform: rotate(-45deg) translate(-15px, 5px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-16px, 5px);
+	transform: rotate(45deg) translate(-16px, -5px);
+}
+
 /* HOME */
 #home {
-	background: url("../_images/tokyo.jpg");
+	background: url("../images/tokyo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -43,7 +106,6 @@ a, a:hover {
 }
 
 /* PROJECTS */
-
 .cell {
 	height: 400px;
 	padding: 0px;
@@ -73,7 +135,6 @@ a, a:hover {
 }
 
 /* FONTS */
-
 .thin {
 	font-weight: 100;
 }
