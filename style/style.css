@@ -5,10 +5,11 @@
 	padding: 0px;
 }
 
-body{
+body, html{
 	font-family: 'Roboto', sans-serif;
 	background-color: #101010;
 	color: white;
+	height: 100%;
 }
 
 a, a:hover {
