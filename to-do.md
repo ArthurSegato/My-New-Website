@@ -1,7 +1,5 @@
 - Fazer Robots.txt
 - Fazer SiteMap.xml
-- Fazer Meta tags
-- Usar Icone SVG (mudar com o modo escuro)
 - Comprimir imagens (qualidade boa) https://imagecompressor.io/compress
 - Usar background como svg?
 - Mudar as páginas de erro
@@ -13,6 +11,7 @@
 - Revisar HtAcess
 - Quando clica em 'credits' vai pra página de créditos
 - Quando clica no '???' todo o site fica em japonês
+- Mudar link do webmanifest pro do site
 
 Imagens
 https://unsplash.com/photos/pO1sE4BItYE

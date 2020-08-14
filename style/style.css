@@ -86,7 +86,7 @@ a, a:hover {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+	height: 150vh;
 }
 
 .home-text {
@@ -103,6 +103,16 @@ a, a:hover {
 
 .list {
 	padding-top: 10%;
+}
+
+.list ul {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+.list li {
+	margin-bottom: 5%;
 }
 
 .social {
@@ -169,11 +179,11 @@ a, a:hover {
 }
 
 .thirty {
-	font-size: calc(0.6696428571428571vw + 18.857142857142858px);
+	font-size: calc(1.1160714285714286vw + 21.428571428571427px);
 }
 
 .twenty {
-	font-size: calc(0.4464285714285714vw + 12.571428571428571px);
+	font-size: calc(0.4464285714285714vw + 19.571428571428573px);
 }
 
 @media (min-width: 768px) {
@@ -182,12 +192,17 @@ a, a:hover {
 	}
 
 	.thirty {
-		font-size: calc(0.8445945945945946vw + 17.513513513513512px);
+		font-size: calc(0.8445945945945946vw + 23.513513513513512px);
 	}
 
 	.twenty {
-		font-size: calc(0.6756756756756757vw + 10.81081081081081px);
+		font-size: calc(0.33783783783783783vw + 20.405405405405407px);
 	}
+
+	.list li {
+		margin-bottom: 10%;
+	}
+
 }
 @media (min-width: 1360px) {
 	.seventy-two {
@@ -195,12 +210,16 @@ a, a:hover {
 	}
 
 	.thirty {
-		font-size: calc(1.9642857142857142vw + 2.2857142857142856px);
+		font-size: calc(0.8928571428571428vw + 22.857142857142858px);
 	}
 
 	.twenty {
-		font-size: calc(1.25vw + 3px);
+		font-size: calc(0.35714285714285715vw + 20.142857142857142px);
 	}
+	.list li {
+		margin-bottom: 5%;
+	}
+
 }
 @media (min-width: 1920px) {
 	.seventy-two {
@@ -213,5 +232,27 @@ a, a:hover {
 
 	.twenty {
 		font-size: 27px;
+	}
+
+	.list li {
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-height: 360px) {
+	#home {
+		height: 120vh;
+	}
+}
+
+@media (min-height: 432px) {
+	#home {
+		height: 110vh;
+	}
+}
+
+@media (min-height: 768px ) {
+	#home {
+		height: 100vh;
 	}
 }
