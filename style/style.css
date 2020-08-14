@@ -81,7 +81,7 @@ a, a:hover {
 }
 
 /* HOME */
-#home {
+.home {
 	background: url("../images/tokyo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
