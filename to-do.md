@@ -11,3 +11,6 @@
 - Revisar HtAcess
 - Quando clica no '???' todo o site fica em japonês
 - Mudar link do webmanifest pro do site
+- Trocar 'Arthur Segato' por svg
+- Arrumar o preload do celular
+- Na pagina de créditos trocar 'a' por js
