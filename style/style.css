@@ -164,7 +164,15 @@ a, a:hover {
 	top: 50%;
 	transform: translate(0, -50%);
 }
+/* hacks */
+.hacks {
+	width: 0px;
+	height: 0px;
+	position:absolute;
+	overflow:hidden;
+	z-index:-1;
 
+}
 /* FONTS */
 .thin {
 	font-weight: 100;
