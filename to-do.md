@@ -18,14 +18,3 @@ https://unsplash.com/photos/pO1sE4BItYE
 https://unsplash.com/photos/BxoaHOKCD_Q
 https://unsplash.com/photos/b3dyh1MBQ5U
 https://unsplash.com/photos/V-0dyZEU3Pg
-
-Fonte
-https://www.dafont.com/true-lies.font
-
-Icones
-https://fontawesome.com/icons/discord?style=brands
-https://fontawesome.com/icons/github?style=brands
-https://fontawesome.com/icons/envelope?style=regular
-
-Fundo Svg
-https://www.svgbackgrounds.com/#wavey-fingerprint

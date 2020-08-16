@@ -82,18 +82,12 @@ a, a:hover {
 
 /* HOME */
 #home {
-	height: 150vh;
+	padding: 35% 0 15% 13%;
 	background: url("../images/tokyo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-}
-
-.home-text {
-	position: absolute;
-	top: 20%;
-	left: 15%;
 }
 
 .title h1 {
@@ -103,17 +97,21 @@ a, a:hover {
 }
 
 .list {
-	padding-top: 10%;
+	margin-top: 50px;
 }
 
 .list ul {
-  list-style-type: none;
-  margin: 0;
-  padding-bottom: 0px;
+	list-style-type: none;
+	margin: 0px;
 }
 
 .list li {
 	margin-bottom: 5%;
+}
+
+#social-icons {
+	display: inline-block;
+    margin-top: 10px;
 }
 
 .social {
@@ -201,7 +199,11 @@ a, a:hover {
 	}
 
 	.list li {
-		margin-bottom: 10%;
+		margin-bottom: 2%;
+	}
+
+	#home {
+		padding: 25% 0 15% 13%;
 	}
 
 }
@@ -218,7 +220,11 @@ a, a:hover {
 		font-size: calc(0.35714285714285715vw + 20.142857142857142px);
 	}
 	.list li {
-		margin-bottom: 5%;
+		margin-bottom: 1%;
+	}
+
+	#home {
+		padding: 20% 0 15% 13%;
 	}
 
 }
@@ -236,24 +242,16 @@ a, a:hover {
 	}
 
 	.list li {
-		margin-bottom: 0px;
+		margin-bottom: 0%;
+	}
+
+	#home {
+		padding: 15% 0 15% 13%;
 	}
 }
 
-@media (min-height: 360px) {
+@media (min-width: 200px) and (orientation : landscape) {
 	#home {
-		height: 120vh;
-	}
-}
-
-@media (min-height: 432px) {
-	#home {
-		height: 110vh;
-	}
-}
-
-@media (min-height: 768px ) {
-	#home {
-		height: 100vh;
+		padding: 15% 0 15% 13%;
 	}
 }
