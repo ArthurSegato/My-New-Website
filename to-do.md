@@ -17,4 +17,3 @@ Imagens
 https://unsplash.com/photos/pO1sE4BItYE
 https://unsplash.com/photos/BxoaHOKCD_Q
 https://unsplash.com/photos/b3dyh1MBQ5U
-https://unsplash.com/photos/V-0dyZEU3Pg
