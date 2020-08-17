@@ -5,8 +5,9 @@
 	padding: 0px;
 }
 
-body, html{
+body{
 	font-family: 'Roboto', sans-serif;
+	background-color: #101010;
 	color: white;
 	height: 100%;
 }
@@ -81,32 +82,14 @@ a, a:hover {
 
 /* HOME */
 #home {
-	min-height: 100vh;
-}
-
-#background {
-	transition: 2s;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("../images/tokyo.jpg");
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
-
-.image {
-	display: none;
-}
-
-.content {
 	padding: 35% 0 15% 13%;
-	height: 100%;
-	width: 100%
-	z-index: 1;
+	background: url("../images/tokyo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	transition: 2s;
+	min-height: 100vh;
 }
 
 .title h1 {
@@ -182,15 +165,7 @@ a, a:hover {
 	top: 50%;
 	transform: translate(0, -50%);
 }
-/* hacks */
-.hacks {
-	width: 0px;
-	height: 0px;
-	position:absolute;
-	overflow:hidden;
-	z-index:-1;
 
-}
 /* FONTS */
 .thin {
 	font-weight: 100;
@@ -229,7 +204,7 @@ a, a:hover {
 		margin-bottom: 2%;
 	}
 
-	.content {
+	#home {
 		padding: 25% 0 15% 13%;
 	}
 
@@ -250,7 +225,7 @@ a, a:hover {
 		margin-bottom: 1%;
 	}
 
-	.content {
+	#home {
 		padding: 20% 0 15% 13%;
 	}
 
@@ -272,13 +247,13 @@ a, a:hover {
 		margin-bottom: 0%;
 	}
 
-	.content {
+	#home {
 		padding: 15% 0 15% 13%;
 	}
 }
 
 @media (min-width: 200px) and (orientation : landscape) {
-	.content {
+	#home {
 		padding: 15% 0 15% 13%;
 	}
 }

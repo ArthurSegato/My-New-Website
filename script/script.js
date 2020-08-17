@@ -1,15 +1,27 @@
+let preload = new Array();
+
+preload[0] = "images/sao-paulo.jpg";
+preload[1] = "images/sky-plane.jpg";
+preload[2] = "images/tokyo.jpg";
+
+var loadedimages = new Array();
+for(var i=0; i<preload.length; i++) {
+loadedimages[i] = new Image();
+loadedimages[i].src = preload[i];
+}
+
 let x = -1;
 setInterval(displayNextImage, 5000);
 function displayNextImage() {
     x = (x === 3 - 1) ? 0 : x + 1;
     if (x == 0) {
-        document.getElementById("background").style.backgroundImage = 'url("images/sao-paulo.jpg")';
+        document.getElementById("home").style.backgroundImage = 'url("images/sao-paulo.jpg")';
     }
     if (x == 1) {
-        document.getElementById("background").style.backgroundImage = 'url("images/sky-plane.jpg")';
+        document.getElementById("home").style.backgroundImage = 'url("images/sky-plane.jpg")';
     }
     if (x == 2) {
-        document.getElementById("background").style.backgroundImage = 'url("images/tokyo.jpg")';
+        document.getElementById("home").style.backgroundImage = 'url("images/tokyo.jpg")';
     }
 }
 /* OPEN MENU ON CLICK AND BLOCK SCROLL */
