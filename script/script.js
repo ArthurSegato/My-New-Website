@@ -1,15 +1,3 @@
-let preload = new Array();
-
-preload[0] = "images/sao-paulo.jpg";
-preload[1] = "images/sky-plane.jpg";
-preload[2] = "images/tokyo.jpg";
-
-var loadedimages = new Array();
-for(var i=0; i<preload.length; i++) {
-loadedimages[i] = new Image();
-loadedimages[i].src = preload[i];
-}
-
 let x = -1;
 setInterval(displayNextImage, 5000);
 function displayNextImage() {
@@ -27,20 +15,20 @@ function displayNextImage() {
 /* OPEN MENU ON CLICK AND BLOCK SCROLL */
 let open = false;
 function toggleMenu() {
-	let btn = document.getElementById('menu-btn');
-	btn.classList.toggle("change");
-	if (open == false) {
-		document.getElementById("sideNav").style.width = "100%";
-		open = true;
+    let btn = document.getElementById('menu-btn');
+    btn.classList.toggle("change");
+    if (open == false) {
+        document.getElementById("sideNav").style.width = "100%";
+        open = true;
         let x = window.scrollX, y = window.scrollY;
         window.onscroll = function(){
             window.scrollTo(x, y);
         };
-	}else{
-		document.getElementById("sideNav").style.width = "0%";
-		open = false;
+    }else{
+        document.getElementById("sideNav").style.width = "0%";
+        open = false;
         window.onscroll = function(){};
-	}
+    }
 }
 /* SHOW SOCIAL ICONS*/
 function show(){
