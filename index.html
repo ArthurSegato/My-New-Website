@@ -39,6 +39,10 @@
       <link rel="stylesheet" href="style/fonts.css">
    </head>
    <body>
+        <div class="hacks">
+            <link rel="prefetch" href="images/sao-paulo.jpg">
+            <link rel="prefetch" href="images/sky-plane.jpg">
+        </div>
         <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -50,7 +54,7 @@
          <a class="thin thirty" href="#">???</a>
       </div>
       <div id="home">
-         <div class="title">
+         <div class="title" rel="preload" as="font">
             <h1 class="seventy-two">ARTHUR</h1>
             <h1 class="seventy-two">SEGATO</h1>
          </div>
@@ -119,14 +123,7 @@
             </div>
          </div>
       </div>
-      <div class="hacks">
-            <link rel="prefetch" href="images/sao-paulo.jpg">
-            <link rel="prefetch" href="images/sky-plane.jpg">
-      </div>
       <script type="text/javascript" src="script/script.js"></script>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
       </script>
    </body>
 </html>
