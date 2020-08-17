@@ -1,7 +1,6 @@
 - Fazer Robots.txt
 - Fazer SiteMap.xml
-- Comprimir imagens (qualidade boa) https://imagecompressor.io/compress
-- Usar background como svg?
+- caminho absoluto dos icones e do css nas paginas de erro e dos gifs tb
 - Mudar as páginas de erro
 - Colocar easter eggs no código fonte
 - Colocar um desenho do matheus carneiro
@@ -9,5 +8,4 @@
 - Comprimir os scripts pra um só
 - Minificar todo o código
 - Revisar HtAcess
-- Quando clica no '???' todo o site fica em japonês
 - Mudar link do webmanifest pro do site

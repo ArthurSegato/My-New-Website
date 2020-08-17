@@ -139,7 +139,7 @@ a, a:hover {
 /* PROJECTS */
 .cell {
 	height: 400px;
-	padding: 0px;
+	padding: 0;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
