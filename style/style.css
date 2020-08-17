@@ -89,7 +89,6 @@ a, a:hover {
 	background-position: center;
 	background-size: cover;
 	transition: 2s;
-	min-height: 100vh;
 }
 
 .title h1 {
