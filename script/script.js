@@ -1,19 +1,17 @@
 let x = -1;
 setInterval(displayNextImage, 5000);
-
 function displayNextImage() {
     x = (x === 3 - 1) ? 0 : x + 1;
     if (x == 0) {
-        document.getElementById("home").style.backgroundImage = 'url("images/sao-paulo.jpg")';
+        document.getElementById("background").style.backgroundImage = 'url("images/sao-paulo.jpg")';
     }
     if (x == 1) {
-        document.getElementById("home").style.backgroundImage = 'url("images/sky-plane.jpg")';
+        document.getElementById("background").style.backgroundImage = 'url("images/sky-plane.jpg")';
     }
     if (x == 2) {
-        document.getElementById("home").style.backgroundImage = 'url("images/tokyo.jpg")';
+        document.getElementById("background").style.backgroundImage = 'url("images/tokyo.jpg")';
     }
 }
-
 /* OPEN MENU ON CLICK AND BLOCK SCROLL */
 let open = false;
 function toggleMenu() {
