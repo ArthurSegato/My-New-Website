@@ -1,7 +1,6 @@
 - Fazer Robots.txt
 - Fazer SiteMap.xml
 - caminho absoluto dos icones e do css nas paginas de erro e dos gifs tb
-- Mudar as páginas de erro
 - Colocar easter eggs no código fonte
 - Colocar um desenho do matheus carneiro
 - Comprimir os arquivos de estilo pra um só
