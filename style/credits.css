@@ -3,37 +3,30 @@
 	margin: 0px;
 	padding: 0px;
 }
-
 body{
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	background-color: #232526;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='775' height='93' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23414345' stroke-width='3.3' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
-
 h1 {
 	font-weight: 200;
 	text-align: center;
 	margin-bottom: 30px;
 }
-
 h2 {
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
-
 a {
 	color: #ffffff;
 }
-
 a:hover {
 	color: #f1c40f;
 }
-
 .content {
 	margin: 5% 25% 5% 25%;
 }
-
 .menu-btn {
 	display: inline-block;
 	position: absolute;
@@ -42,7 +35,6 @@ a:hover {
 	cursor: pointer;
 	z-index: 2;
 }
-
 .bar1{
 	position: relative;
 	top: 2px;
@@ -53,7 +45,6 @@ a:hover {
 	margin: 10px 0;
 	transform: rotate(-40deg);
 }
-
 .bar3{
 	position: relative;
 	top: -2px;
@@ -64,14 +55,15 @@ a:hover {
 	margin: 10px 0;
 	transform: rotate(40deg);
 }
-
 .bar2 {
 	width: 60px;
 	height: 5px;
 	background-color: #ffffff;
 	margin: 10px 0;
 }
-
+.ceoHack{
+	display: none;
+}
 @media (min-width: 200px) and (orientation : portrait) {
 	.content {
 		margin: 30% 25% 5% 25%;

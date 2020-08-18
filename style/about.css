@@ -79,6 +79,9 @@ li {
 	margin-left: 15%;
 	margin-right: 15%; 
 }
+.ceoHack{
+	display: none;
+}
 .thin {
 	font-weight: 100;
 }

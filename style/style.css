@@ -70,7 +70,6 @@ a, a:hover {
 /* HOME */
 #home {
 	padding: 35% 0 15% 13%;
-	background: url("../images/tokyo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -137,6 +136,9 @@ a, a:hover {
 	text-align: center;
 	top: 50%;
 	transform: translate(0, -50%);
+}
+.ceoHack{
+	display: none;
 }
 .thin {
 	font-weight: 100;
@@ -208,4 +210,12 @@ a, a:hover {
 	#home {
 		padding: 15% 0 15% 13%;
 	}
+}
+
+video.fillWidth{
+	position: relative;
+	width: 100%;
+	z-index: -100;
+	background-size: cover;
+	  
 }
