@@ -74,7 +74,6 @@ a, a:hover {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	transition-duration: 2s;
 	min-height: 100vh;
 }
 .title h1 {
