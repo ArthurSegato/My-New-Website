@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
@@ -13,16 +12,9 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
 h1 {
     font-size: 100px;
 }
-
-.background {
-    width: 100%;
-    height: 100vh;
-}
-
 .text {
     text-align: center;
     position: absolute;
@@ -30,7 +22,21 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(10,10,10,.6),rgba(0,0,0,.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px);
+    overflow: hidden;
+    z-index: -2;
+}
+.video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 @keyframes textflicker {
     from {
         text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
