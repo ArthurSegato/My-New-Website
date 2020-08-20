@@ -1,3 +1,10 @@
+function GetBrowserInfo() {
+    let isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+    if (isSafari) {
+        document.getElementById("home").style.backgroundAttachment = "scroll";
+        console.log("safari");
+    }
+}
 /* OPEN MENU ON CLICK AND BLOCK SCROLL */
 let open = false;
 function toggleMenu() {
@@ -77,4 +84,4 @@ console.log(`
 ╦ ╦┌─┐┬ ┬  ┌─┐┬─┐┌─┐  ┌─┐┬ ┬┬─┐┬┌─┐┬ ┬┌─┐   ╦  ┬  ┬┬┌─┌─┐┌┬┐  ┬┌┬┐┬
 ╚╦╝│ ││ │  ├─┤├┬┘├┤   │  │ │├┬┘││ ││ │└─┐   ║  │  │├┴┐├┤  ││  │ │ │
  ╩ └─┘└─┘  ┴ ┴┴└─└─┘  └─┘└─┘┴└─┴└─┘└─┘└─┘┘  ╩  ┴─┘┴┴ ┴└─┘─┴┘  ┴ ┴ o
-`)
+`);
