@@ -5,7 +5,6 @@ function GetBrowserInfo() {
         console.log("safari");
     }
 }
-/* OPEN MENU ON CLICK AND BLOCK SCROLL */
 let open = false;
 function toggleMenu() {
     let btn = document.getElementById('menu-btn');
@@ -23,12 +22,10 @@ function toggleMenu() {
         window.onscroll = function(){};
     }
 }
-/* SHOW SOCIAL ICONS*/
 function show(){
     let social = document.getElementById('social-icons');
     social.classList.toggle("change");
 }
-/* SET SCROLL TO SMOOTH AND CLEAN URL*/
 let links = document.getElementsByTagName("a");
 Array.prototype.forEach.call(links, function(elem, index) {
     let elemAttr = elem.getAttribute("href");
