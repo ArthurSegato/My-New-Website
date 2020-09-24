@@ -1,7 +1,7 @@
 * {
-	border: 0px;
-	margin: 0px;
-	padding: 0px;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 body{
 	font-family: 'Roboto', sans-serif;
@@ -23,6 +23,9 @@ h2 {
 }
 a {
   cursor: pointer;
+}
+p {
+	padding-bottom: 10px;
 }
 .menu-btn {
 	display: inline-block;
@@ -71,8 +74,35 @@ a {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 }
+.cover a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  padding-top: 60px;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  letter-spacing: .1em;
+  text-decoration: none;
+}
+.cover a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
 .container {
-	margin: 0 25% 0 25%;
+	margin: 0 15% 0 15%;
 	padding-bottom: 5%;
 }
 .link {
@@ -130,6 +160,9 @@ a {
 	.twenty{
 		font-size: calc(0.33783783783783783vw + 12.405405405405405px);
 	}
+	.container {
+		margin: 0 20% 0 20%;
+	}
 }
 @media (min-width: 1360px) {
 	.hundred{
@@ -152,4 +185,18 @@ a {
 	.twenty{
 		font-size: 20px;
 	}
+	.container {
+		margin: 0 25% 0 25%;
+	}
+}
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
 }

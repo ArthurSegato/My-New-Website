@@ -169,24 +169,24 @@ a, a:hover {
 .regular{
 	font-weight: 400;
 }
-.seventy-two {
+.ninety-six {
 	font-size: calc(1.5625vw + 40px);
 }
-.thirty {
+.forty {
 	font-size: calc(1.1160714285714286vw + 21.428571428571427px);
 }
-.twenty {
-	font-size: calc(0.4464285714285714vw + 19.571428571428573px);
+.thirty {
+	font-size: calc(0.6696428571428571vw + 17.857142857142858px);
 }
 @media (min-width: 768px) {
-	.seventy-two {
+	.ninety-six {
 		font-size: calc(2.195945945945946vw + 40.13513513513514px);
 	}
-	.thirty {
+	.forty {
 		font-size: calc(0.8445945945945946vw + 23.513513513513512px);
 	}
-	.twenty {
-		font-size: calc(0.33783783783783783vw + 20.405405405405407px);
+	.thirty {
+		font-size: calc(0.5067567567567568vw + 19.10810810810811px);
 	}
 	.list li {
 		margin-bottom: 2%;
@@ -196,14 +196,14 @@ a, a:hover {
 	}
 }
 @media (min-width: 1360px) {
-	.seventy-two {
+	.ninety-six {
 		font-size: calc(4.642857142857143vw + 6.857142857142857px);
 	}
-	.thirty {
+	.forty {
 		font-size: calc(0.8928571428571428vw + 22.857142857142858px);
 	}
-	.twenty {
-		font-size: calc(0.35714285714285715vw + 20.142857142857142px);
+	.thirty {
+		font-size: calc(0.7142857142857143vw + 16.285714285714285px);
 	}
 	.list li {
 		margin-bottom: 1%;
@@ -213,14 +213,14 @@ a, a:hover {
 	}
 }
 @media (min-width: 1920px) {
-	.seventy-two {
+	.ninety-six {
 		font-size: 96px;
 	}
-	.thirty {
+	.forty {
 		font-size: 40px;
 	}
-	.twenty {
-		font-size: 27px;
+	.thirty {
+		font-size: 30px;
 	}
 	.list li {
 		margin-bottom: 0%;
