@@ -127,7 +127,7 @@ li {
 	padding: 50px 0 25px 0;
 }
 .twenty{
-	font-size: calc(0.4464285714285714vw + 11.571428571428571px);
+	font-size: calc(0.4464285714285714vw + 12.571428571428571px);
 }
 @media (min-width: 768px) {
 	.hundred{
@@ -140,7 +140,7 @@ li {
 		font-size: calc(0.5067567567567568vw + 19.10810810810811px);
 	}
 	.twenty{
-		font-size: calc(0.33783783783783783vw + 12.405405405405405px);
+		font-size: calc(0.33783783783783783vw + 13.405405405405405px);
 	}
 	img {
 		width: 250px;
@@ -161,7 +161,7 @@ li {
 		font-size: calc(0.7142857142857143vw + 16.285714285714285px);
 	}
 	.twenty{
-		font-size: calc(0.5357142857142857vw + 9.714285714285714px);
+		font-size: calc(0.35714285714285715vw + 13.142857142857142px);
 	}
 	img {
 		width: 300px;
