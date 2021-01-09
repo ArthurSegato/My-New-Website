@@ -109,9 +109,6 @@ li {
 .blinking-cursor {
 	animation: 1s blink step-end infinite;
 }
-.ceoHack{
-	display: none;
-}
 .regular{
 	font-weight: 400;
 }

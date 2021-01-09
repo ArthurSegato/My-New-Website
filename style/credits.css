@@ -132,9 +132,6 @@ p {
 .link:hover::after {
 		height: 100%;
 }
-.ceoHack{
-	display: none;
-}
 .hundred{
 		font-size: calc(5.580357142857143vw + 17.142857142857142px);
 }

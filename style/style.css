@@ -160,9 +160,6 @@ a, a:hover {
 .chromatic-box{
 	box-shadow: 0.8px -0.8px 0px rgba(58, 22, 255, 1), -0.5px 0.5px 0px rgba(255, 24, 14, 1);
 }
-.ceoHack{
-	display: none;
-}
 .thin {
 	font-weight: 100;
 }
