@@ -1,3 +1,5 @@
+const observer = lozad();
+observer.observe();
 function GetBrowserInfo() {
     let isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
     if (isSafari) {
