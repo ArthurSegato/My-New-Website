@@ -97,14 +97,14 @@ a, a:hover {
 }
 .social {
 	position: relative;
-	left: -500px;
+	left: -100vw;
+	margin-right: 10px;
 }
 .change .social{
-	left: 0px;
+	left: 0vw;
 }
 .social svg {
 	width: 30px;
-	margin-right: 10px;
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
 }
