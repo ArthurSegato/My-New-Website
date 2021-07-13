@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
-
+Disallow: https://arthursegato.com/fiverr/
 Sitemap: https://arthursegato.com/sitemap.xml
